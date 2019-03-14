@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tech"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/timetableicon"
+            android:id="@+id/img"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Timetable"
+            android:layout_below="@+id/img"
+            android:textColor="#39c9c6"
+            android:paddingTop="70dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_margin="30dp"
+        android:progressBackgroundTint="#f9f9f9"
+        android:progressTint="#f2375c"
+        android:id="@+id/progressBarId"
+        />
+
+</LinearLayout>

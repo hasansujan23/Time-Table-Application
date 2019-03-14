@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScrollViewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:background="#7B68EE"
+        android:textColor="#FFFAFA"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="25dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MD ABDULLAH AL HASAN"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:paddingBottom="0dp"
+                        android:id="@+id/sujan"
+                        android:gravity="left"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dept. of CSE\nJessore University of Science and Technology, Bangladesh"
+                        android:layout_below="@+id/sujan"
+                        android:textSize="20dp"
+                        android:gravity="left"
+                        android:paddingTop="-4dp"
+                        android:paddingLeft="10dp"
+                        android:id="@+id/cse"
+                        android:textColor="@color/colorPrimary"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="25dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MD SUMAN ALI"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:paddingBottom="0dp"
+                        android:id="@+id/sumon"
+                        android:gravity="left"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dept. of CSE\nJessore University of Science and Technology, Bangladesh"
+                        android:layout_below="@+id/sumon"
+                        android:textSize="20dp"
+                        android:gravity="left"
+                        android:paddingTop="-4dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/colorPrimary"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="25dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Milon Kumar Das"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:paddingBottom="0dp"
+                        android:id="@+id/milan"
+                        android:gravity="left"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dept. of CSE\nJessore University of Science and Technology, Bangladesh"
+                        android:layout_below="@+id/milan"
+                        android:textSize="20dp"
+                        android:gravity="left"
+                        android:paddingTop="-4dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/colorPrimary"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
